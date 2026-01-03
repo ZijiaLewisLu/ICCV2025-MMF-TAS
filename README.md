@@ -1,6 +1,6 @@
 <h2 align="center"> <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Lu_Multi-Modal_Few-Shot_Temporal_Action_Segmentation_ICCV_2025_paper.html">Multi-Modal Few-shot Temporal Action Segmentation</a></h2>
 
-We propose a new problem of **Multi-Modal Few-shot Temporal Action Segmentation** (MMF-TAS), which aims for open-world model that can segment procedural videos from unseen tasks with just a few example videos. Our model, **Protototype Graph Network** (PGNet), is a multi-modal model that is trained for few-shot learning but can address various zero-shot, few-shot setting at test time.
+We propose a new problem of **Multi-Modal Few-shot Temporal Action Segmentation** (MMF-TAS), which aims for open-world models that can segment procedural videos from unseen tasks with just a few example videos. Our model, **Protototype Graph Network** (PGNet), is a multi-modal model that is trained for few-shot learning but can address various zero-shot, few-shot settings at test time.
 
 <p align="center">
 <img src="framework.png" alt="framework" width="400"/>
