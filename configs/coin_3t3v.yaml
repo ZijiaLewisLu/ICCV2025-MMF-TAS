@@ -1,0 +1,67 @@
+Loss:
+  align_w: 3.0
+  simi_w: 1.0
+  smooth_w: 1.0
+  task_w: 1.0
+MB:
+  a: sa
+  a_dim: 128
+  a_ffdim: 512
+  a_inmap: false
+  a_layers: 3
+  a_nhead: 8
+  attn_dp: null
+  dropout: 0.0
+  f: cnn
+  f_d: 2
+  f_dim: 128
+  f_layers: 5
+  f_ln: true
+  f_ngp: 4
+  f_share: true
+PBB:
+  a: sca
+  a_dim: 128
+  a_ffdim: 512
+  a_inmap: false
+  a_layers: 6
+  a_nhead: 8
+  attn_dp: null
+  dgt_dim: 288
+  dgt_etype: t,c1,p,v,a,c2
+  dgt_ffdim: 1024
+  dgt_inmap: false
+  dgt_layers: 4
+  dgt_nhead: 9
+  dropout: 0.3
+  f: cnn
+  f_d: 2
+  f_dim: 128
+  f_layers: 5
+  f_ln: true
+  f_ngp: 4
+aux:
+  debug: false
+  epoch_resume: null
+  eval_every: 9000
+  gpu: 0
+  mark: ''
+  print_every: 3000
+  resume: max
+  runid: 1
+  skip_finished: true
+  wandb_offline: false
+clip_grad_norm: 10.0
+dataset: coin
+epoch: 200
+feature: vrl
+lr: 5.0e-05
+lr_decay: 200
+momentum: 0.009
+nt: 3
+nv: 4
+optimizer: Adam
+split: split1
+temb_path: dataset/coin/vrl_temb.pth
+test_set: dataset/coin/splits/split1.unseen_test_set.3t3v.json
+weight_decay: 0.0
