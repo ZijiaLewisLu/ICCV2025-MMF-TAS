@@ -3,7 +3,7 @@
 We propose a new problem of **Multi-Modal Few-shot Temporal Action Segmentation** (MMF-TAS), which aims for open-world model that can segment procedural videos from unseen tasks with just a few example videos. Our model, **Protototype Graph Network** (PGNet), is a multi-modal model that is trained for few-shot learning but can address various zero-shot, few-shot setting at test time.
 
 <p align="center">
-<img src="framework.png" alt="framework" width="200"/>
+<img src="framework.png" alt="framework" width="400"/>
 </p>
 
 ## Preparation
