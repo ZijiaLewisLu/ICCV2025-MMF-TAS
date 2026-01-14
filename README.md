@@ -37,7 +37,7 @@ python3 -m src.train --cfg src/configs/coin_3t3v.yaml --set aux.gpu 0 aux.runid 
 # coin 5way 3shot
 python3 -m src.train --cfg src/configs/coin_5t3v.yaml --set aux.gpu 0 aux.runid 1
 ```
-By default, log will be saved to `PGNet/log/<experiment-path>`. Evaluation results are saved as `Checkpoint` objects defined [utils/analysis.py](./utils/analysis.py). Optionally, the code can use Weight and Bias to visualize loss and metric curves via `cfg.aux.use_wandb`.
+By default, log will be saved to `PGNet/log/<experiment-path>`. Evaluation results are saved as `Checkpoint` objects defined in [utils/analysis.py](./utils/analysis.py). Optionally, the code can use Weight and Bias to visualize loss and metric curves via setting `cfg.aux.use_wandb` to True.
 
 If you want to add your dataset, please refer to `utils/dataset.py - get_dataset_config()`.
 
